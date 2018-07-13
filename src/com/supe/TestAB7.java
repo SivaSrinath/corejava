@@ -12,7 +12,7 @@ public class TestAB7 {
 		System.out.println(a.x +"...."+ a.y);
 
 		b.x=5;
-		b.y=6;
+		a.y=6;
 		
 		System.out.println(b.x +"...."+ b.y);
 		System.out.println(a.x +"...."+ a.y);
