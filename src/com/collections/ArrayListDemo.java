@@ -15,7 +15,6 @@ public class ArrayListDemo {
 		System.out.println(a);
 		a.remove(2);
 		a.add(2,"M");
-		
 		System.out.println(a);
 
 	}

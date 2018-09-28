@@ -7,9 +7,9 @@ import java.util.Set;
 
 public class HasSetDemo {
 	public static void main(String[] args) {
-		//Set<Integer> hashSet = new HashSet<>();
+		HashSet<Integer> hashSet = new HashSet<>();
 		
-		Set<Integer> hashSet = new LinkedHashSet<>();
+//		Set<Integer> hashSet = new LinkedHashSet<>();
 
 		for (int i = 0; i < 20; i++) {
 			System.out.println(hashSet.add(i));
