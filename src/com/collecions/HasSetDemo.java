@@ -7,9 +7,9 @@ import java.util.Set;
 
 public class HasSetDemo {
 	public static void main(String[] args) {
-		HashSet<Integer> hashSet = new HashSet<>();
-		
-//		Set<Integer> hashSet = new LinkedHashSet<>();
+		// HashSet<Integer> hashSet = new HashSet<>();
+
+		Set<Integer> hashSet = new LinkedHashSet<>();
 
 		for (int i = 0; i < 20; i++) {
 			System.out.println(hashSet.add(i));
@@ -18,12 +18,9 @@ public class HasSetDemo {
 		hashSet.add(null);
 		hashSet.add(null);
 		hashSet.add(100);
-		
-
 		Iterator<Integer> it = hashSet.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
-
 	}
 }

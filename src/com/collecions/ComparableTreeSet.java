@@ -7,11 +7,13 @@ import java.util.TreeSet;
 public class ComparableTreeSet {
 	public static void main(String[] args) {
 		Set<Employe> data = new TreeSet<>();
+		
 		data.add(new Employe(100, "siva"));
-		data.add(new Employe(1000, "siva2"));
-		data.add(new Employe(500, "siva2"));
-		data.add(new Employe(500, "siva2"));
+		data.add(new Employe(1000, "s"));
+		data.add(new Employe(5000, "s1"));
+		data.add(new Employe(10000, "s2"));
 
+		
 		Iterator<Employe> it = data.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next());
