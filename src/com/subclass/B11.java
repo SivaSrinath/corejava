@@ -2,7 +2,7 @@ package com.subclass;
 
 public class B11 extends A11{
 	
-	static int b=300;
+	static int b=30;
 	int y=40;
 	
 	static {

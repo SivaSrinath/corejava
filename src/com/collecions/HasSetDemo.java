@@ -10,6 +10,7 @@ public class HasSetDemo {
 		// HashSet<Integer> hashSet = new HashSet<>();
 
 		Set<Integer> hashSet = new LinkedHashSet<>();
+		//Set<Object> hashSet = new LinkedHashSet<Integer>(); do not allows it
 
 		for (int i = 0; i < 20; i++) {
 			System.out.println(hashSet.add(i));

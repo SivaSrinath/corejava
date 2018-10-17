@@ -10,7 +10,7 @@ public class A12 {
 		System.out.println("A m2");
 	}
 	
-	static void m3() {
+	 void m3() {
 		System.out.println("A m3");
 	}
 	int m3(String s) {

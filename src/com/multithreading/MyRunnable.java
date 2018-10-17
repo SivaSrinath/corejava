@@ -12,7 +12,7 @@ public class MyRunnable implements Runnable{
 		MyRunnable mr = new MyRunnable();
 		Thread th = new Thread(mr);
 		th.start();
-		mr.run();
+		//mr.run();
 	}
 
 }

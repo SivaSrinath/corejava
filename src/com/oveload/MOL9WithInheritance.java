@@ -12,7 +12,6 @@ public class MOL9WithInheritance {
 		b.m1(10);
 		
 		System.out.println();
-		List
 		A9 a=new B9();
 		a.m1("a");
 		a.m1(10);

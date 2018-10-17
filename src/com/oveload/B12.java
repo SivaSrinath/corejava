@@ -16,6 +16,6 @@ public class B12  extends A12{
 	/*public static void main(String[] args) {
 		
 		A12 a= new B12();
-		a.m2();
+		a.m3();
 	}*/
 }

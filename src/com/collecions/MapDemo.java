@@ -11,9 +11,9 @@ public class MapDemo {
 
 	public static void main(String[] args) {
 
-		//Map<String, Object> sampleMap = new HashMap();
+		Map<String, Object> sampleMap = new HashMap();
 
-		Map<String, Object> sampleMap = new Hashtable();
+		//Map<String, Object> sampleMap = new Hashtable();
 		
 		sampleMap.put("rollNo", 10);
 		sampleMap.put("name", "Siva");
@@ -38,7 +38,5 @@ public class MapDemo {
 			System.out.println(entry.getKey() + "||"+ entry.getValue());
 			System.out.println();
 		}
-		
-		
 	}
 }

@@ -3,7 +3,7 @@ package com.collecions;
 public class Employe implements Comparable<Employe> {
 	private int sal;
 	private String name;
-
+    
 	/**
 	 * @return the sal
 	 */

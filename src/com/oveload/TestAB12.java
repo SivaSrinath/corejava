@@ -17,6 +17,7 @@ public class TestAB12 {
 		
 		a.m1();
 		a.m2();
+		a.m3();
 		a.m3("srubatg");
 	}
 
