@@ -5,11 +5,11 @@ public class Test03_RunExecution {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		/*System.out.println("case 1");
+		System.out.println("case 1");
 		Thread th1=new Thread();
 		th1.start();
 		
-		System.out.println("******case 2******");
+		/*System.out.println("******case 2******");
 		MyThread mt= new MyThread();
 		mt.start();
 		
@@ -34,12 +34,12 @@ public class Test03_RunExecution {
 		Thread r = new MyRunnable();
 		r.start();*/
 		
-		System.out.println("*** case 8****"); 
+		/*System.out.println("*** case 8****"); 
 		Runnable r = new MyRunnable();
 		
 		System.out.println("*** case 9 ****");
 		Thread th6= new Thread(r);
-		th6.start();
+		th6.start();*/
 		
 		/*System.out.println("** case 10*****");
 		Runnable r= new MyThread();

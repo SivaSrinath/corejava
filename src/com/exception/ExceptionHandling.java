@@ -10,10 +10,8 @@ public class ExceptionHandling {
 		try {
 			System.out.println("User Age:" + readAgeFormUser());
 		} catch (NotProperInputException e) {
-
 			//e.printStackTrace();
 			//System.err.println("Message:"+e.getMessage());
-			
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			e.printStackTrace(pw);
@@ -23,7 +21,8 @@ public class ExceptionHandling {
 
 	}
 
-	public static int readAgeFormUser()throws NotProperInputException {
+	public static int readAgeFormUser() 
+			throws NotProperInputException {
 		Scanner sc = new Scanner(System.in);
 
 		int ageInDays = 0;
@@ -35,6 +34,5 @@ public class ExceptionHandling {
            throw new NotProperInputException("Enter only valid numbers:");
 		}
 		return ageInDays;
-
 	}
 }

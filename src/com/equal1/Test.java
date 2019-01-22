@@ -2,6 +2,7 @@ package com.equal1;
 
 public class Test {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		

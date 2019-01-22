@@ -15,8 +15,5 @@ public class InternTest25 {
 		String s5= "NIT";
 		System.out.println(s3==s5);
 		System.out.println(s4==s5);
-		
-
 	}
-
 }

@@ -7,6 +7,7 @@ public class ExampleCase21 {
 		System.out.println(m1());
 	}
 
+	@SuppressWarnings("finally")
 	static int m1() {
 		try {
 			System.out.println("In try");
@@ -15,11 +16,11 @@ public class ExampleCase21 {
 			System.out.println("In catch");
 		} finally {
 			System.out.println("In finally");
-			if (true) {
+			return 30;
+			/*if (true) {
 				return 30;
-			}
+			}*/
 		}
-		System.out.println("after try/catch/finally");
-		return 0;
+		//System.out.println("after try/catch");
 	}
 }

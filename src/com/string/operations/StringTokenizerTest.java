@@ -9,7 +9,7 @@ public class StringTokenizerTest {
 		
 		StringTokenizer st= 
 			//	new StringTokenizer("Siva Srinath");
-			 // new StringTokenizer("Siva Srinath", "a");
+			//  new StringTokenizer("Siva Srinath", "a");
 			  new StringTokenizer("Sivat Srinath", "a", true);
 		System.out.println("Number of Tokens :"+ st.countTokens());
 		while(st.hasMoreTokens()) {

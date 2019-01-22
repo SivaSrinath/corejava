@@ -7,6 +7,7 @@ public class FinallyCase1 {
 		System.out.println(m1());
 	}
 	
+	@SuppressWarnings("finally")
 	static int m1() {
 		try {
 			System.out.println("In try");

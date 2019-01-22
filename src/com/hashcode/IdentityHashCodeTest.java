@@ -1,4 +1,4 @@
- package com.hashcode;
+package com.hashcode;
 
 public class IdentityHashCodeTest {
 
@@ -33,7 +33,5 @@ public class IdentityHashCodeTest {
 		System.out.println(e1.JVMHC());
 		System.out.println(e2.JVMHC());
 		System.out.println(e3.JVMHC());
-		
 	}
-
 }

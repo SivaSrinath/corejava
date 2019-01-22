@@ -24,5 +24,4 @@ public class Exam implements Cloneable {
 		System.out.println(e1.x+"....."+ e1.y);
 		System.out.println(e2.x+"..."+e2.y);
 	}
-
 }

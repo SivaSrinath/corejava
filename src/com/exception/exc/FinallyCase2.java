@@ -20,7 +20,7 @@ public class FinallyCase2 {
 		}
 		finally {
 			System.out.println("In finally");
-			int a[]= new int[-5];
+			//int a[]= new int[-5];
 			//return ;
 		}
 		
