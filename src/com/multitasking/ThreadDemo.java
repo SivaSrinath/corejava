@@ -6,10 +6,10 @@ public class ThreadDemo {
 		// TODO Auto-generated method stub
 		
 		MyRunnable r=new MyRunnable();
-		Thread t=new Thread();
+		Thread t=new Thread(r);
 		t.start();
 		for(int i=0; i<=10; i++){
-			System.out.println("main method");
+			System.out.println("main method"+i);
 		}
 
 	}
