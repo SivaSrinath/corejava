@@ -6,7 +6,7 @@ public class SubThread18 extends Thread{
 	public void run() {
 		for(int i=1; i<=50; i++) {
 			diff -=i;
-			System.out.println("the summation :"+ diff);
+			System.out.println("the sub thread :"+ diff);
 		}
 	}
 
