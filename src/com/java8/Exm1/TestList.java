@@ -10,13 +10,13 @@ public class TestList {
 		
 		List<Integer> li =new ArrayList<Integer>();
 		
-		li.add(20);
-		li.add(40);
-		li.add(50);
-		li.add(70);
+		li.add(49);
+		//li.add(40);
+		//li.add(50);
+		//li.add(70);
 		
 		li.forEach(n-> System.out.println(n));
-		
+		System.out.println("**************************");
 		li.forEach(n-> {if (n%2 == 0) System.out.println(n); });
 
 	}
