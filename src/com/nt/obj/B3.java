@@ -8,11 +8,12 @@ public class B3  extends A3{
 		System.out.println("B NSV");
 		return 20;
 	}
-	
 	{
 		System.out.println("B NSB");
 	}
-	
+	B3(){
+		System.out.println("B Constructor");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("B main");
@@ -20,7 +21,7 @@ public class B3  extends A3{
 		B3 b= new B3();
 		System.out.println("\n B main x:"+ b.x);
 		
-		System.out.println("\n B main x:"+ b.y);
+		System.out.println("\n B main y:"+ b.y);
 	}
 
 }

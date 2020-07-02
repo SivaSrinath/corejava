@@ -24,6 +24,6 @@ public class Example {
 		// TODO Auto-generated method stub
 		Example e = new Example();
 		e.m1();
-		System.out.println("e.x" + e.x);
+		System.out.println("e.x = " + e.x);
 	}
 }

@@ -10,21 +10,20 @@ public class ExceptionHandling {
 		try {
 			System.out.println("User Age:" + readAgeFormUser());
 		} catch (NotProperInputException e) {
-			//e.printStackTrace();
-			//System.err.println("Message:"+e.getMessage());
+			e.printStackTrace();
+			System.err.println("Message:"+e.getMessage());
+			System.err.println("Localized Message:"+e.getLocalizedMessage());
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			e.printStackTrace(pw);
 			String sStackTrace = sw.toString(); // stack trace as a string
 			System.out.println("Stack trace:"+sStackTrace);
 		}
-
 	}
 
 	public static int readAgeFormUser() 
 			throws NotProperInputException {
 		Scanner sc = new Scanner(System.in);
-
 		int ageInDays = 0;
 		try {
 			System.out.println("Enter age:");

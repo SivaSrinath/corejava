@@ -2,10 +2,10 @@ package com.oveload;
 
 public class MOL3 {
 	
-	/*static void m1(int a) {
+	static void m1(int a) {
 		System.out.println("int-arg");
-	}*/
-	static void m1(double f) {
+	}
+	static void m1(float f) {
 		System.out.println("float-arg");
 	}
 	/*static void m1(char c) {
@@ -13,7 +13,6 @@ public class MOL3 {
 	}*/
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		m1(10);//fl do In LO DO IN.. Object 
 		m1('a');
 		m1((int)'d');

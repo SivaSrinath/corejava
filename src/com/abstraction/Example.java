@@ -35,7 +35,7 @@ public abstract class Example {
 		System.out.println("I am in main method");
 		m2();		
 		
-		//Example ex=new Example();
+		//Example ex=new Example(){{};
 		
 
 	}

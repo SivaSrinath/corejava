@@ -6,6 +6,6 @@ public class Example {
 		System.out.println("I am in Example constructor");
 	}
 	Example(int a) {
-		System.out.println("I am in Example constructor");
+		System.out.println("I am in Example constructor---- int param");
 	}
 }

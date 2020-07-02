@@ -19,6 +19,7 @@ public class Sample1 {
 
 		Sample1 e= new Sample1();
 		e.m1();
+		
 	}
 
 }
