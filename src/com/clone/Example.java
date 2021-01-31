@@ -12,6 +12,8 @@ public class Example implements Cloneable{
 		Example e2= (Example)e1.clone();
 		System.out.println(e2);
 		System.out.println(e1);
+		System.out.print(e1==e2);
+		System.out.print(e1.hashCode() ==e2.hashCode());
 
 	}
 

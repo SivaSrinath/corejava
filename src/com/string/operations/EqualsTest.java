@@ -12,8 +12,9 @@ public class EqualsTest {
 		StringBuffer sb1= new StringBuffer("a");
 		StringBuffer sb2= new StringBuffer("a");
 		//== compares the object reference
-		System.out.println("s1==s2"+s1==s2);
-		System.out.println("s3==s4" +s3==s4);
+		System.out.println("s1==s2**"+ (s1==s2));
+		System.out.println("test*****8");
+		System.out.println("s3==s4" +(s3==s4));
 		System.out.println( sb1==sb2);
 		
 		System.out.println(s1.equals(s2));

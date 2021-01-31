@@ -39,6 +39,8 @@ public class ExecutorMultipleThreads {
 				throw new IllegalStateException(e);
 			}
 		};
+		
+		
 		executorService.submit(task1);
 		executorService.submit(task2);
 		executorService.execute(task1);

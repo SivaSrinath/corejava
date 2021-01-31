@@ -13,6 +13,10 @@ public class B12  extends A12{
 	void m3(float f, int x) {
 		System.out.println("b m3 float, int");
 	}
+	
+	void m3() {
+		System.out.println("B m3");
+	}
 	/*public static void main(String[] args) {
 		
 		A12 a= new B12();

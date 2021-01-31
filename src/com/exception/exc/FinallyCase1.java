@@ -19,8 +19,11 @@ public class FinallyCase1 {
 		}
 		finally {
 			System.out.println("In finally");
-			return 30;
+			if(true) {
+				return 30;
+			}
 		}
+		//System.out.println("after try/catch/finally");
 	}
 
 }

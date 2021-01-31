@@ -19,6 +19,8 @@ public class B3  extends A3{
 		System.out.println("B main");
 		
 		B3 b= new B3();
+		
+		//B3 b2 = new A3();
 		System.out.println("\n B main x:"+ b.x);
 		
 		System.out.println("\n B main y:"+ b.y);

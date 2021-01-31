@@ -9,7 +9,7 @@ public class Example {
 		x = 30;
 		y = 40;
 	}
-
+	
 	void printXY() {
 		System.out.println(x);
 		System.out.println(y);

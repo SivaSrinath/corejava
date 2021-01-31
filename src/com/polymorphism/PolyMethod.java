@@ -12,8 +12,11 @@ public class PolyMethod {
 		
 		Poly1 p1=new Poly1();
 		p1.sum(10, 35);
+		p1.m1();
 		
-
+		Poly p2 = new Poly1();
+		
+		p2.sum(10, 10f);
+		//p2.m2();
 	}
-
 }

@@ -29,13 +29,13 @@ public class CompareToTest {
 		String s5= "aBc";
 		System.out.println(s4.equals(s5));
 		System.out.println(s4.compareTo(s5));
-		System.out.println(s4.compareToIgnoreCase(s5));
+		System.out.println("compareToIgnoreCase abc aBc "+s4.compareToIgnoreCase(s5));
 		
 		System.out.println();
 		String s6= "abcdef";
 		System.out.println(s4.compareTo(s6));
 		System.out.println(s6.compareTo(s4));
-		System.out.println(s6.compareToIgnoreCase(s4));
+		System.out.println("compareToIgnoreCase abcdef abc "+ s6.compareToIgnoreCase(s4));
 		
 		System.out.println();
 		System.out.println(s5.compareTo(s6));

@@ -14,14 +14,16 @@ public class ExampleCase21 {
 			return 10;
 		} catch (ArithmeticException ae) {
 			System.out.println("In catch");
+			//return 20;
 		} finally {
 			System.out.println("In finally");
 			//int[] i = new int[-5];
-			return 30;
-			/*
-			 * if (true) { return 30; }
-			 */
+			//return 30;
+			
+			  if (false) { return 30; }
+			 
 		}
-		//System.out.println("after try/catch");
+		System.out.println("after try/catch");
+		return 50;
 	}
 }
