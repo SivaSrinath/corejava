@@ -15,6 +15,7 @@ public class PermuteArray {
 		arr.add(2);
 		arr.add(3);
 		
+		
 		System.out.println("Possible permutations are :"+ get_permutations(arr));
 
 	}
