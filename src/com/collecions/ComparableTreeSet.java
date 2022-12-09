@@ -18,6 +18,10 @@ public class ComparableTreeSet {
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
+		
+		System.out.println("Using streams");
+		
+		data.stream().forEach(c -> System.out.println(c));
 		/*
 		 * for(Employe em:data) { System.out.println(em.getSal());
 		 * System.out.println(em.getName()); }

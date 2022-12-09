@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class MapJava8 {
 
@@ -23,7 +24,22 @@ public class MapJava8 {
 			System.out.println(entry.getKey() +"||"+entry.getValue());
 		}
 		
+		
+		Set<Integer> keySet = map.keySet();
+		for(Integer key :keySet) {
+			System.out.println(map.get(key));
+		}
+		
+		map.keySet().forEach(key -> System.out.println(map.get(key) + " "+ key));
+		
 		Map<Integer, String> map2 = new HashMap<>();
+		
+		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() +" "+e.getValue()));
+		
+		map.keySet().stream()
+		            .forEach(key -> System.out.println(map.get(key)+" "+key));
+		
+		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() + " "+e.getValue()));
 		
 		
 	}

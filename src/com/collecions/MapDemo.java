@@ -38,5 +38,6 @@ public class MapDemo {
 			System.out.println(entry.getKey() + "||"+ entry.getValue());
 			System.out.println();
 		}
+		
 	}
 }

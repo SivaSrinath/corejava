@@ -27,6 +27,9 @@ public class PredicateMethods {
 		
 		System.out.println(evenNumbers + " "+ oddNumbers);
 		
+		list.stream().map(num -> num*3).forEach(System.out::println);
+		
+		
 
 	}
 

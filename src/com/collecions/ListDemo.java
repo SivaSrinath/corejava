@@ -45,6 +45,9 @@ public class ListDemo {
 			System.out.println(enu.nextElement());
 		}
 		
+		System.out.println("*****using streams*******");
+		list.stream().forEach(l -> System.out.println(l));
+		
 		
 	}
 }

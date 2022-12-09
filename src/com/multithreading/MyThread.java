@@ -15,7 +15,8 @@ public class MyThread extends Thread{
 		MyThread mt = new MyThread();
 		mt.start();
 		for(int i=1; i<=20; i++) {
-			System.out.println("main method i :"+i);
+			System.out.println("Main method i "+ i);
 		}
+		
 	}
 }
