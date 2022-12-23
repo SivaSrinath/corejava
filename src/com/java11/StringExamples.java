@@ -10,7 +10,7 @@ public class StringExamples {
 		// TODO Auto-generated method stub
 
 		
-		String multiLineString = "  Baeldung helps \\n \\n developers \\n explore Java.  ";
+		String multiLineString = "  Baeldung helps \n developers \n explore Java.  ";
 		
 		List<String> lines = multiLineString.lines()
 					.filter(line -> !line.isBlank())
@@ -20,14 +20,17 @@ public class StringExamples {
 		
 		lines.forEach(e -> System.out.println(e));
 		
+		System.out.println(" ".isBlank()); //true
+		
 		//List sampleList = Arrays.asList("Java", "Springboot");
 		//String[] sampleArray= (String[]) sampleList.toArray(String[]::new);
 		
-		
-		
+				
 		List sampleList = Arrays.asList("Java", "Springboot");
 		
-		String[] strArray = (String[])sampleList.toArray(String[]::new);
+		String[] strArray =(String[]) sampleList.toArray(String[]::new);
+		
+		
 		
 		String s12 = String.join("-", "a","b","c");
 		
@@ -36,6 +39,12 @@ public class StringExamples {
 		StringBuilder sb = new StringBuilder("Srinath");
 		
 		System.out.println(sb.reverse());
+		
+		String str = "&".repeat(5);
+		System.out.println(str);
+		
+		
+		
 		
 	}
 }

@@ -36,8 +36,16 @@ public class Examples {
 		
 		int count = (int) strings.stream().filter(str -> !str.isEmpty()).count();
 		
-		Optional<String> firstElement = strings.stream().filter(str -> str.length()>1).findFirst();
+		Optional<String> firstElement = strings.stream()
+										.filter(str -> str.length()>1)
+										.findFirst();
+		if(firstElement.isPresent()) {
+			System.out.println(firstElement.get());
+		}
 		
+		List<String> strList1 = strings.stream().filter(str -> !str.isEmpty()).collect(Collectors.toList());
+		
+		strList1.forEach(str -> System.out.println(str));
 		
 		System.out.println(count);
 		
@@ -49,8 +57,12 @@ public class Examples {
 		
 		List<Integer> numSquareList = num.stream().map(i -> i*i).collect(Collectors.toList());
 		
+		
+		num.stream().map(i -> i*2).collect(Collectors.toList());
+		
 		List<Integer> ages = Arrays.asList(25, 30, 45, 28, 32);
 		List<Integer> evenNumbers = ages.stream().filter(i -> i%2 == 0).collect(Collectors.toList());
+		
 		
 		evenNumbers.forEach(e -> System.out.println(e));
 		

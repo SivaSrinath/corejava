@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 public class PredicateMethods {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Predicate<Integer> isEven = i -> i%2 == 0;
 		
@@ -28,9 +27,6 @@ public class PredicateMethods {
 		System.out.println(evenNumbers + " "+ oddNumbers);
 		
 		list.stream().map(num -> num*3).forEach(System.out::println);
-		
-		
-
 	}
 
 }

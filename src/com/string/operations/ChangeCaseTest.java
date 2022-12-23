@@ -11,6 +11,10 @@ public class ChangeCaseTest {
 		String s2 = "_bc";
 		System.out.println(s2.toLowerCase());
 		System.out.println(s2.toUpperCase());
+		
+		if(s1.equals("aBc")) {
+			System.out.println("Both are equal");
+		}
 	}
 
 }

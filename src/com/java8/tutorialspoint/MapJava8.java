@@ -32,15 +32,9 @@ public class MapJava8 {
 		
 		map.keySet().forEach(key -> System.out.println(map.get(key) + " "+ key));
 		
-		Map<Integer, String> map2 = new HashMap<>();
-		
 		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() +" "+e.getValue()));
 		
-		map.keySet().stream()
-		            .forEach(key -> System.out.println(map.get(key)+" "+key));
-		
-		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() + " "+e.getValue()));
-		
+		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() + " : " +e.getValue()));
 		
 	}
 

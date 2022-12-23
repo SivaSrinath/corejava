@@ -9,6 +9,8 @@ public class HalfReverseTraingle {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter size of trainagle ");
+		
 		int size = Integer.parseInt(sc.nextLine());
 		
 		for(int i=0; i<size; i++) {
@@ -18,12 +20,32 @@ public class HalfReverseTraingle {
 			System.out.println();
 		}
 		
-		test();
-
+		//test();
+		
+		testPractice();
+	}
+	
+	public static void testPractice() {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("**testPractice**");
+		
+		int size = Integer.parseInt(sc.nextLine());
+		
+		for(int i=0; i<size; i++) {
+			for(int j=size-1; j>i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
 	}
 	
 	public static void test() {
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter size of trainagle ");
 		
 		int size = Integer.parseInt(sc.nextLine());
 		
