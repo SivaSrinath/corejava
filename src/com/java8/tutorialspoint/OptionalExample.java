@@ -30,19 +30,21 @@ public class OptionalExample {
 		
 		long countLong = strings.stream().filter(str -> str.length()>1).count();
 		System.out.println("count using long "+ countLong);
-
-		Optional<String> firstElement = Optional
-				.ofNullable(strings.stream().filter(str -> str.length() > 1).findFirst().orElseThrow());
 		
+		Optional<String> firstElement = Optional
+				.ofNullable(strings.stream()
+								   .filter(str -> str.length() > 1)
+								   .findFirst()
+								   .orElseThrow());
 		
 		if(firstElement.isPresent()) {
 			System.out.println(firstElement.get());
 		}
 		
 
-		 //Predicate<T>
+		 //Predicate<T> // Filter method example
 
-		 //Consumer<T>]
+		 //Consumer<T>] //
 
 		BufferedReader br = new BufferedReader(null);
 

@@ -2,7 +2,7 @@ package com.collecions;
 
 import java.util.Comparator;
 
-public class ComparatorDemo implements Comparator<Employe>{
+public class ComparatorDemo implements Comparator<Employe> {
 
 	@Override
 	public int compare(Employe emp1, Employe emp2) {
@@ -18,4 +18,5 @@ public class ComparatorDemo implements Comparator<Employe>{
 		return 0;
 	}
 
+	//Comparable<T>
 }

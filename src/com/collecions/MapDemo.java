@@ -39,5 +39,10 @@ public class MapDemo {
 			System.out.println();
 		}
 		
+		System.out.println("Using java 8");
+		sampleMap.entrySet().stream().forEach(e -> System.out.println(e.getKey() +" " +e.getValue()));
+		
+		
+		
 	}
 }

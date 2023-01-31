@@ -61,7 +61,7 @@ public class Examples {
 		num.stream().map(i -> i*2).collect(Collectors.toList());
 		
 		List<Integer> ages = Arrays.asList(25, 30, 45, 28, 32);
-		List<Integer> evenNumbers = ages.stream().filter(i -> i%2 == 0).collect(Collectors.toList());
+		List<Integer> evenNumbers =  ages.stream().filter(i -> i%2 ==0).collect(Collectors.toList());
 		
 		
 		evenNumbers.forEach(e -> System.out.println(e));

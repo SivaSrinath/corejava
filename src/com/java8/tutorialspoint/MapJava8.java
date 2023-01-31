@@ -34,7 +34,7 @@ public class MapJava8 {
 		
 		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() +" "+e.getValue()));
 		
-		map.entrySet().stream().forEach(e -> System.out.println(e.getKey() + " : " +e.getValue()));
+		map.entrySet().stream().forEach(e -> System.out.println(e.getKey()+ " "+ e.getValue()));
 		
 	}
 

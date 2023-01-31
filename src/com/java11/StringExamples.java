@@ -17,7 +17,6 @@ public class StringExamples {
 					.map(String::strip)
 					.collect(Collectors.toList());
 		
-		
 		lines.forEach(e -> System.out.println(e));
 		
 		System.out.println(" ".isBlank()); //true
@@ -29,8 +28,6 @@ public class StringExamples {
 		List sampleList = Arrays.asList("Java", "Springboot");
 		
 		String[] strArray =(String[]) sampleList.toArray(String[]::new);
-		
-		
 		
 		String s12 = String.join("-", "a","b","c");
 		
